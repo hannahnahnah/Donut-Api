@@ -25,7 +25,7 @@
 	</div>
 	<div>
 	<div>
-		<img src="${displayDetail.photo}" alt="donut photo" height="400" align="right"> 
+		<c:if test="${displayDetail.photo != null}"><img src="${displayDetail.photo}" alt="donut photo" height="400" align="right"></c:if> 
 	</div>
 		<p><label>Calories: &nbsp;</label>${displayDetail.calories}</p>
 	</div>
